@@ -1,0 +1,94 @@
+body {
+	background:var(--background-color-1);
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.0em;
+	color:var(--text-color-1);
+}
+
+h1 {
+	font-size: 1.2em;
+	font-weight: lighter;
+	padding-bottom: 0%;
+}
+
+h2 {
+	margin-bottom:0%;
+	padding-bottom:0%;
+	font-size: 1.05em;
+	font-weight: lighter;
+}
+
+h3 {
+	margin:0%;
+	padding:0%;
+	font-size: 0.8em;
+	font-weight: lighter;
+	color: #dc0707;
+	text-shadow: 1px 1px black;
+}
+
+p {
+	font-size: 0.8em;
+	padding:0%;
+}
+
+a {
+	color:var(--text-color-1);
+}
+
+.flexCenter {
+    display: flex; 
+	justify-content: center;
+	width: 100%;
+}
+
+#content{
+	width: 40em;
+}
+
+input {
+	height:2em;
+	color:var(--text-color-1);
+	background:var(--main-color);
+	border:var(--border-simple);
+	box-sizing: border-box;
+    min-width: 20em;
+}
+
+textarea {
+	color:var(--text-color-1);
+	background:var(--main-color);
+	border:var(--border-simple);
+	box-sizing: border-box;
+    min-height: 6em;
+	width: 100%;
+	resize: vertical;
+}
+
+button{
+    height: 2em;
+	color:var(--text-color-1);
+	background:var(--main-color);
+	cursor: pointer;
+	border:var(--border-simple);
+    min-width: 20em;
+}
+
+button:hover{
+	background:var(--btn-color-hover);
+}
+
+button:disabled{
+	background:var(--btn-color-hover);
+    color:var(--text-color-2);
+	cursor: wait;
+}
+
+#readMoreBlock{
+	display: none;
+}
+
+#readMoreLink{
+	cursor: pointer;
+	text-decoration: underline;
+}

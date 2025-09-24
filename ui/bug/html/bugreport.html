@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<script defer="defer" type="text/javascript" src="../../shared/js/download_lib.js"></script>
+		<script defer="defer" type="text/javascript" src="../js/user_interaction.js"></script>
+
+        <title>Channel Blocker Bug Report</title>
+
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+		<link id="css" rel="stylesheet" href="../../shared/css/dark_root.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+		<script defer="defer" type="text/javascript" src="../../../shared/browser-polyfill.min.js"></script>
+		<script defer="defer" type="text/javascript" src="../../../shared/jquery-3.5.1.min.js"></script>
+		<script defer="defer" type="text/javascript" src="../../../shared/shared.js"></script>
+		<script defer="defer" type="text/javascript" src="../../shared/js/design_controller.js"></script>
+    </head>
+    <body>
+        <div class="flexCenter">
+            <div id="content">
+                <h1>Channel Blocker Bug Report</h1>
+                <h2>Name (optional)</h2>
+                <input id="nameInput" type="text">
+                <h2>Email (optional)</h2>
+                <input id="emailInput" type="email">
+                <h2>Describe the bug</h2>
+                <textarea id="bugDescriptionInput" type="text"></textarea>
+                <h3 id="bugDescriptionErrText" style="display: none;">Please describe the bug in (at least) a few words.</h3>
+                </br>
+                </br>
+                <button id="downloadReportBtn">Save Bug Report</button>
+                </br>
+                </br>
+                <p>
+                    Please fill out the empty fields, save the bug report and send it to <a href="mailto:yt-cleaner@protonmail.com">yt-cleaner@protonmail.com</a>.
+                    Make sure your bug description is meaningful otherwise we might not be able to understand and fix it.
+                    The bug report contains <a id="readMoreLink">data about your browser</a>.
+                </p>
+                <p id="readMoreBlock">
+                    The bug report contains information about your browsers user-agent request header
+                    (which contains the name of your browser application, your browser version,
+                    information about your operating system),
+                    language,
+                    Channel Blocker version and configuration,
+                    the URL and HTML data of the page the bug was reported on.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
