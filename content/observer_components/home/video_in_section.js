@@ -1,7 +1,11 @@
 const VIDEO_IN_SECTION_CONFIG = Object.freeze({
-    anchorSelector: ["ytd-rich-item-renderer[class='style-scope ytd-rich-shelf-renderer']"],
+	anchorSelector: ["ytd-rich-item-renderer[class='style-scope ytd-rich-grid-renderer']"],
 	characterDataSelectors: {
-        videoTitle: ["yt-formatted-string#video-title[class='style-scope ytd-rich-grid-media']"],
-        userChannelName: ["a[class='yt-simple-endpoint style-scope yt-formatted-string']"]
+		videoTitle: [
+			"span[class='yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap']"
+		],
+		userChannelName: [
+			"a[class='yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color yt-core-attributed-string--link-inherit-color']"
+		]
 	}
-});
+})
