@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Channel Blocker Plus",
-	"version": "0.0.1",
+	"version": "0.9.1",
 	"description": "Updated for the current YouTube state Channel Blocker and that is it. Allows you to block YouTube\u2122 videos and comments by blacklisting users and/or by using regular expressions.",
 	"icons": {
 		"16": "/images/CB_icon_16.png",
